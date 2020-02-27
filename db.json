@@ -1,0 +1,58 @@
+{
+  "personnes": [
+    {
+      "prenom": "Mouhamed",
+      "age": 25,
+      "id": 1,
+      "nom": "DIALLO"
+    },
+    {
+      "personne": {
+        "id": 2,
+        "nom": "Ba",
+        "prenom": "Cherif",
+        "age": 28
+      },
+      "id": 2,
+      "nom": "Ba",
+      "prenom": "Cherif",
+      "age": 28
+    },
+    {
+      "personne": {
+        "nom": "Sakho",
+        "prenom": "Thokarev",
+        "age": 28,
+        "id": 3
+      },
+      "prenom": "Thokarev",
+      "age": 23,
+      "id": 3,
+      "nom": "Sakho"
+    },
+    {
+      "nom": "Sow",
+      "prenom": "Samba",
+      "age": 29,
+      "id": 10
+    },
+    {
+      "nom": "Ndiaye",
+      "prenom": "Gora",
+      "age": 28,
+      "id": 12
+    },
+    {
+      "nom": "DIALLO",
+      "prenom": "Victorine",
+      "age": 37,
+      "id": 18
+    },
+    {
+      "nom": "DIOUF",
+      "prenom": "Seydina",
+      "age": 26,
+      "id": 19
+    }
+  ]
+}

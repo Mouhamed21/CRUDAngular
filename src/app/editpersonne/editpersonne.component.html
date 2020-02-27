@@ -1,0 +1,10 @@
+<div style="position: absolute; left: 45%;top: 35%;">
+  <form >
+    <input type="text" name="nom" [(ngModel)]="personne.nom"> <br> <br>
+    <input type="text" name="prenom" [(ngModel)]="personne.prenom"> <br> <br>
+    <input type="number" name="age" [(ngModel)]="personne.age"> <br><br>
+    <input type="submit" (click)="editPersonne()"  value="Valider" >
+    <input type="button" (click)="onNoClick()" value="Annuler">
+  </form>
+
+</div>
