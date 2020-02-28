@@ -16,6 +16,7 @@ import {DeletepersonneComponent} from '../deletepersonne/deletepersonne.componen
 export class HomeComponent implements OnInit {
   personnes = [];
   p = 1;
+  term: string;
   constructor(private personneService: PersonneService , public dialog: MatDialog) { }
   ngOnInit(): void {
     this.getPersonnes();

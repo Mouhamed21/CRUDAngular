@@ -22,6 +22,7 @@ import { EditpersonneComponent } from './editpersonne/editpersonne.component';
 import { DeletepersonneComponent } from './deletepersonne/deletepersonne.component';
 import {MatPaginatorModule} from '@angular/material/paginator';
 import {NgxPaginationModule} from 'ngx-pagination';
+import { Ng2SearchPipeModule } from 'ng2-search-filter';
 
 @NgModule({
   declarations: [
@@ -48,7 +49,8 @@ import {NgxPaginationModule} from 'ngx-pagination';
     MatFormFieldModule,
     FormsModule,
     MatPaginatorModule,
-    NgxPaginationModule
+    NgxPaginationModule,
+    Ng2SearchPipeModule
   ],
   providers: [],
   entryComponents: [
