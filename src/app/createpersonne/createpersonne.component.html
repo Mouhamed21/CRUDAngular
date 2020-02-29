@@ -1,10 +1,18 @@
 <div style="position: absolute; left: 45%;top: 35%;">
-  <form >
+  <form>
     <input type="text" name="nom" [(ngModel)]="personne.nom" placeholder="nom"> <br> <br>
     <input type="text" name="prenom" [(ngModel)]="personne.prenom" placeholder="prenom"> <br> <br>
     <input type="number" name="age" [(ngModel)]="personne.age" placeholder="age"> <br><br>
+    <mat-form-field>
+      <mat-label>Sexe</mat-label>
+      <mat-select [(value)]="sexe">
+        <mat-option value="M">M</mat-option>
+        <mat-option value="F">F</mat-option>
+      </mat-select>
+    </mat-form-field> <br> <br>
     <input type="submit" (click)="postPersonne()"  value="Enregistrer" >
     <input type="button" (click)="onNoClick()" value="Annuler">
   </form>
-
 </div>
+
+

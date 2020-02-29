@@ -10,13 +10,16 @@ import {Personne} from '../../modeles/personne';
 })
 export class EditpersonneComponent implements OnInit {
  personne = new Personne();
+  sexe: string;
   constructor(private personneService: PersonneService, public dialogRef: MatDialogRef<EditpersonneComponent>,
               @Inject(MAT_DIALOG_DATA) public data: any) { }
 
   ngOnInit(): void {
+    this.personne.sexe = this.sexe;
     this.personne = this.data.personne;
     console.log(this.data);
     console.log(this.data.personne.id);
+    console.log(this.personne.sexe);
   }
   onNoClick(): void {
     this.dialogRef.close();

@@ -4,55 +4,113 @@
       "prenom": "Mouhamed",
       "age": 25,
       "id": 1,
-      "nom": "DIALLO"
+      "nom": "DIALLO",
+      "sexe": "M"
     },
     {
-      "personne": {
-        "id": 2,
-        "nom": "Ba",
-        "prenom": "Cherif",
-        "age": 28
-      },
       "id": 2,
       "nom": "Ba",
       "prenom": "Cherif",
-      "age": 28
+      "age": 28,
+      "sexe": "F"
     },
     {
-      "personne": {
-        "nom": "Sakho",
-        "prenom": "Thokarev",
-        "age": 28,
-        "id": 3
-      },
+      "nom": "Sakho",
       "prenom": "Thokarev",
-      "age": 23,
+      "age": 28,
       "id": 3,
-      "nom": "Sakho"
+      "sexe": "M"
     },
     {
       "nom": "Sow",
       "prenom": "Samba",
       "age": 29,
-      "id": 10
+      "id": 10,
+      "sexe": "M"
     },
     {
       "nom": "Ndiaye",
       "prenom": "Gora",
       "age": 28,
-      "id": 12
+      "id": 12,
+      "sexe": "M"
     },
     {
       "nom": "DIALLO",
       "prenom": "Victorine",
       "age": 37,
-      "id": 18
+      "id": 18,
+      "sexe": "F"
     },
     {
       "nom": "DIOUF",
       "prenom": "Seydina",
       "age": 26,
-      "id": 19
+      "id": 19,
+      "sexe": "M"
+    },
+    {
+      "nom": "Daf",
+      "prenom": "Coumba",
+      "age": 17,
+      "id": 20,
+      "sexe": "F"
+    },
+    {
+      "nom": "diaw",
+      "prenom": "Fatou",
+      "age": 40,
+      "id": 21,
+      "sexe": "F"
+    },
+    {
+      "nom": "SY",
+      "prenom": "Modou",
+      "age": 1,
+      "id": 22,
+      "sexe": "F"
+    },
+    {
+      "nom": "Sow",
+      "prenom": "Baba",
+      "age": 28,
+      "sexe": "M",
+      "id": 23
+    },
+    {
+      "nom": "Ba",
+      "prenom": "Coumba",
+      "age": 25,
+      "sexe": "M",
+      "id": 24
+    },
+    {
+      "nom": "Sow",
+      "prenom": "Bintou",
+      "age": 23,
+      "sexe": "M",
+      "id": 25
+    },
+    {
+      "nom": "Leye",
+      "prenom": "Khady",
+      "age": 35,
+      "id": 26,
+      "sexe": "F"
+    },
+    {
+      "nom": "DIOUF",
+      "prenom": "Souleylane",
+      "age": 3,
+      "sexe": "M",
+      "id": 27
+    },
+    {
+      "nom": "BA",
+      "prenom": "Marietou",
+      "age": 28,
+      "sexe": "F",
+      "id": 28
     }
   ]
 }

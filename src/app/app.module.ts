@@ -23,6 +23,7 @@ import { DeletepersonneComponent } from './deletepersonne/deletepersonne.compone
 import {MatPaginatorModule} from '@angular/material/paginator';
 import {NgxPaginationModule} from 'ngx-pagination';
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
+import {MatSelectModule} from '@angular/material/select';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,8 @@ import { Ng2SearchPipeModule } from 'ng2-search-filter';
     FormsModule,
     MatPaginatorModule,
     NgxPaginationModule,
-    Ng2SearchPipeModule
+    Ng2SearchPipeModule,
+    MatSelectModule
   ],
   providers: [],
   entryComponents: [

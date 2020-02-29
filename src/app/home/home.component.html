@@ -15,6 +15,9 @@
         {{personne.prenom}}
       </p>
       <p>
+        {{personne.sexe}}
+      </p>
+      <p>
         {{personne.age + ' ans'}}
         <button mat-button  style="position: absolute; top: 15%;right: 10px; background-color: green; margin-bottom: 20%;" (click)="editPersonne(personne)">Modifier</button>
         <button mat-button  style="position: absolute; top: 15%;right: 100px; background-color: red; margin-bottom: 20%;" (click)="deletPersonne(personne.id)">Supprimer</button>

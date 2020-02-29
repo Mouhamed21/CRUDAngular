@@ -3,5 +3,6 @@ export class Personne {
   public nom: string;
   public prenom: string;
   public age: number;
+  public sexe: string;
 
 }

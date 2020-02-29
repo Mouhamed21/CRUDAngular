@@ -3,6 +3,14 @@
     <input type="text" name="nom" [(ngModel)]="personne.nom"> <br> <br>
     <input type="text" name="prenom" [(ngModel)]="personne.prenom"> <br> <br>
     <input type="number" name="age" [(ngModel)]="personne.age"> <br><br>
+    <mat-form-field>
+      <mat-label>Sexe</mat-label>
+      <mat-select [(value)]="personne.sexe">
+        <mat-option value="M">M</mat-option>
+        <mat-option value="F">F</mat-option>
+      </mat-select>
+    </mat-form-field> <br> <br>
+    {{sexe}}
     <input type="submit" (click)="editPersonne()"  value="Valider" >
     <input type="button" (click)="onNoClick()" value="Annuler">
   </form>
